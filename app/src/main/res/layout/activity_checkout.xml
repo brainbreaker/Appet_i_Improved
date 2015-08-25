@@ -1,0 +1,189 @@
+<ScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sunshine.bbreaker.appet_i.Checkout"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="@color/appeti_blue"
+     android:orientation="vertical">
+
+    <TextView
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Shipping Information"
+        android:id="@+id/textView1"
+        android:textSize="25sp"
+        android:textColor="@color/appeti_white"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity"
+        android:background="#311B92"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/FirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        app:met_baseColor="@color/appeti_white"
+        app:met_primaryColor="#76FF03"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="First Name"
+        app:met_floatingLabelTextSize="15sp"
+        android:visibility="visible"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:textColorHint="@color/appeti_white"
+        android:inputType="textPersonName" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/LastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        app:met_baseColor="@color/appeti_white"
+        app:met_primaryColor="#76FF03"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Last Name"
+        app:met_floatingLabelTextSize="15sp"
+        android:visibility="visible"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColorHint="@color/appeti_white"
+        android:inputType="textPersonName" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        app:met_baseColor="@color/appeti_white"
+        app:met_primaryColor="#76FF03"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Email"
+        app:met_floatingLabelTextSize="15sp"
+        android:visibility="visible"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColorHint="@color/appeti_white"
+        android:inputType="textEmailAddress" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        app:met_baseColor="@color/appeti_white"
+        app:met_primaryColor="#76FF03"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Phone"
+        app:met_floatingLabelTextSize="15sp"
+        android:visibility="visible"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColorHint="@color/appeti_white"
+        android:inputType="phone" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/ShippingAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Shipping Address"
+        app:met_baseColor="@color/appeti_white"
+        app:met_primaryColor="#76FF03"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Shipping Address"
+        app:met_floatingLabelTextSize="15sp"
+        android:visibility="visible"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColorHint="@color/appeti_white"
+        android:inputType="textPostalAddress" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Summary"
+        android:id="@+id/textView8"
+        android:textColor="@color/appeti_dark_green"
+        android:textSize="20sp"
+        android:background="#fffff942"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Paneer Ghewar"
+        android:id="@+id/PTitle"
+        android:background="@android:color/transparent"
+        android:editable="false"
+        android:cursorVisible="false"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Product Name"
+        app:met_floatingLabelTextSize="15sp"
+        android:textColor="@color/appeti_dark_green"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantity"
+        android:id="@+id/Quantity"
+        android:background="@android:color/transparent"
+        android:editable="false"
+        android:cursorVisible="false"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Quantity"
+        app:met_floatingLabelTextSize="15sp"
+        android:textColor="@color/appeti_dark_green"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:id="@+id/Type"
+        android:background="@android:color/transparent"
+        android:editable="false"
+        android:cursorVisible="false"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Type"
+        app:met_floatingLabelTextSize="15sp"
+        android:textColor="@color/appeti_dark_green"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Amount"
+        android:id="@+id/totalamount"
+        android:background="@android:color/transparent"
+        android:editable="false"
+        android:cursorVisible="false"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Total Amount Payable"
+        app:met_floatingLabelTextSize="15sp"
+        android:textColor="@color/appeti_dark_green"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CASH ON DELIVERY"
+        android:id="@+id/CODbutton"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/appeti_white"
+        android:background="#311B92"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
+</ScrollView>

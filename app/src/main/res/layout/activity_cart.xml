@@ -1,0 +1,213 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#0097A7">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.sunshine.bbreaker.appet_i.Cart$PlaceholderFragment"
+    android:id="@+id/container">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/ProductTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product TITLE"
+        app:met_baseColor="@color/appeti_white"
+        app:met_primaryColor="@color/appeti_blue"
+        android:visibility="visible"
+        android:background="#01579B"
+        android:editable="false"
+        android:cursorVisible="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/appeti_white" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/ProductImageView"
+        android:src="@drawable/petha"
+        android:layout_below="@+id/ProductTitleTextView"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/QuantityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity"
+        app:met_baseColor="@color/appeti_white"
+        app:met_primaryColor="@color/appeti_lightskyblue"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Quantity"
+        app:met_floatingLabelTextColor="#FFFF00"
+        app:met_floatingLabelTextSize="15sp"
+        android:visibility="visible"
+        android:background="@android:color/transparent"
+        android:editable="false"
+        android:cursorVisible="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="270dp"
+        android:textSize="20sp"
+        android:textColor="@color/appeti_white" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/TypeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type"
+        app:met_baseColor="@color/appeti_white"
+        app:met_primaryColor="@color/appeti_lightskyblue"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Type"
+        app:met_floatingLabelTextSize="15sp"
+        android:visibility="visible"
+        android:background="@android:color/transparent"
+        android:editable="false"
+        android:cursorVisible="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="340dp"
+        android:textSize="20sp"
+        android:textColor="@color/appeti_white" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/AmountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        app:met_baseColor="@color/appeti_white"
+        app:met_primaryColor="@color/appeti_lightskyblue"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Total Amount"
+        app:met_floatingLabelTextSize="15sp"
+        android:visibility="visible"
+        android:background="@android:color/transparent"
+        android:editable="false"
+        android:cursorVisible="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="400dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/ShippingAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Shipping Address"
+        app:met_baseColor="@color/appeti_white"
+        app:met_primaryColor="@color/appeti_lightskyblue"
+        android:visibility="visible"
+        android:editable="false"
+        android:background="#01579B"
+        android:cursorVisible="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="450dp"
+        android:textSize="20sp"
+        android:textColorHint="@color/appeti_white" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Line 1"
+        app:met_baseColor="@color/appeti_white"
+        app:met_primaryColor="@color/appeti_lightskyblue"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Address Line 1"
+        app:met_floatingLabelTextSize="15sp"
+        android:visibility="visible"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="480dp"
+        android:textSize="20sp"
+        android:textColorHint="@color/appeti_white" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Line 2"
+        app:met_baseColor="@color/appeti_white"
+        app:met_primaryColor="@color/appeti_lightskyblue"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Address Line 2"
+        app:met_floatingLabelTextSize="15sp"
+        android:visibility="visible"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="540dp"
+        android:textSize="20sp"
+        android:textColorHint="@color/appeti_white" />
+
+    <fr.ganfra.materialspinner.MaterialSpinner
+        android:id="@+id/cityspinner"
+        app:ms_multiline="false"
+        app:ms_hint="Choose Your City"
+        app:ms_floatingLabelText="City"
+        app:ms_baseColor="@color/appeti_lightskyblue"
+        app:ms_highlightColor="@color/appeti_lightskyblue"
+        app:ms_thickness='2dp'
+        app:ms_arrowColor="@color/appeti_lightskyblue"
+        app:ms_arrowSize="16dp"
+        app:ms_alignLabels="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/city_arrays"
+        android:layout_below="@+id/line2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/pincode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PIN Code"
+        app:met_baseColor="@color/appeti_white"
+        app:met_primaryColor="#76FF03"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="PIN Code"
+        android:visibility="visible"
+        android:textSize="15sp"
+        android:textColorHint="@color/appeti_white"
+        android:layout_below="@+id/cityspinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:inputType="phone" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="Proceed To Payment"
+        android:id="@+id/checkoutbutton"
+        android:background="#01579B"
+        android:textColor="@color/appeti_white"
+        android:textSize="25sp"
+        android:layout_below="@+id/AmountEditText"
+        android:layout_marginTop="270dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="false"
+        android:layout_centerVertical="true" />
+
+
+
+
+</RelativeLayout>
+</ScrollView>

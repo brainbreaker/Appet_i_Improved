@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ChildImageView" />
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="225dp"
+
+        android:background="@color/appeti_dull_yellow"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAlignment="gravity"
+        android:textSize="50dp"
+        android:text="Rajasthan"
+        android:textColor="@color/appeti_white" />
+
+</LinearLayout>

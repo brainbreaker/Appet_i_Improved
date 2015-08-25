@@ -1,0 +1,224 @@
+<resources>
+    <string name="app_name">Appet-i</string>
+
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Delicacies</string>
+    <string name="title_section3">Flavours</string>
+    <string name="title_section4">Information</string>
+    <string name="title_section5">My Account</string>
+    <string name="sweets">SWEETS</string>
+    <string name="snacks">SNACKS</string>
+    <string name="mouthfreshner">MOUTH FRESHNER</string>
+    <string name="beverage">BEVERAGE</string>
+    <string name="bakery">BAKERY</string>
+
+
+    <string name="drawer_open">Menu open</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="ok">OK</string>
+    <string name="hello_user">Hello %1$s!</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Post ID: %1$s</string>
+    <string name="error">Error</string>
+    <string name="status_update">Updating status for %1$s at %2$s</string>
+    <string name="photo_post">Photo Post</string>
+    <string name="you_picked">You picked:</string>
+    <string name="no_friends_selected">&lt;No friends selected&gt;</string>
+    <string name="no_place_selected">&lt;No place selected&gt;</string>
+    <string name="pick_seattle_place">Pick a Seattle Place</string>
+    <string name="app_id">355198514515820</string>
+    <string name="exception">Exception: %1$s</string>
+
+
+    <string name="account">My Account</string>
+    <string name="aboutus">About Appet-i</string>
+    <string name="search">Search</string>
+    <string name="facebook_app_id">1198107093548172</string>
+    <string name="who_are_we">
+"Taste popular and authentic regional delicacies brought to your door step right from the origin by Appet-i team!"</string>
+    <string name="WestDescription">West India, in its many-flavored splendor truly caters to diverse palettes—from spicy to sweet, from crunchy to doughy, and everything in between—and that is the beauty of it. TAP TO SHOP!</string>
+
+    <string name="NorthDescription">This part of the country comprises of Jammu And Kashmir, Punjab, Harayana, Delhi and Uttar Pradesh where cuisines are blended in the form of pethas, kesar, gajak, chikkis etc. TAP TO SHOP!
+</string>
+
+    <string name="SouthDescription">The ancient heritage of India for which it is known world wide is well preserved in its temples of South India. The rich taste of food is clearly shown in the likes of Mysore Pak, Kerala’s banana chips, Karachi biscuits of Hyderabad etc. TAP TO SHOP!
+</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="cart">Cart</string>
+
+    <string name="settings">Settings</string>
+    <string name="title_activity_regional_specialities">Delicacies</string>
+
+    <string name="welcome">WELCOME</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_regional__specialities">Delicacies</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_products">Products</string>
+    <string name="title_activity_product">ProductActivity</string>
+
+    <string name="title_activity_cart">Cart</string>
+    <string name="title_activity_checkout">Checkout</string>
+    <string name="title_activity_order__summary">Order Summary</string>
+
+    <string name="ghewar">Ghewar is a Rajasthani sweet which is known for its matchless sweetness and taste.  It is a round mesh like disc-shaped fried delicacy drenched in sugar syrup and topped with sliced nuts and saffron.
+        Ghevar traces it roots to Jaipur, the capital city of Rajasthan.</string>
+
+    <string name="tilekeladdoo">Til ka ladoo is a traditional winter sweet. This is a simple recipe made with til and jaggery.</string>
+
+    <string name="bombayicehalwa">Bombay ice halwa is a delicious Indian recipe served as a Dessert .</string>
+
+    <string name="ratlamisev">Ratlami sev is a popular fried and crisp snack made with gram flour,clove,pepper and other spices.
+        This is a speciality from the city of Ratlam (Madhya Pradesh).</string>
+
+    <string name="kalakand">There can be various types and places from where the Kalakand can be procured but Appeti boasts of bringing the Kalakand (Milk Cake) from its hinterland (its place of origin), which is Alwar.
+        ‘Kalakand’ (Milk Cake) is a popular Indian sweet made out of solidified, sweetened milk and khoya. Famous after its originating place Alwar this is commonly known as Alwar’s Kalakand (Milk Cake), which tempts everybody with its rich aroma.</string>
+
+    <string name="kashmirichikki">Crispy and delicious sweet made of Peanut, sugar syrup,cardamom(Elachi) and jaggery(Gur) ideal for all occasions.
+        Since Chikki is a seasonal product it remains available in winter season only.</string>
+
+    <string name="khakra">Originating from the state of Gujarat, as part of Gujarati cuisine in India, Khakhara’s are thin crackers made from mat bean, wheat flour and oil.</string>
+
+    <string name="mysorepak">Mysore pak is a rich sweet dish prepared in butter, from Southern India, usually served as dessert. It originated in Mysore.
+        It is made of generous amounts of ghee, sugar, gram flour, and often cardamom.</string>
+
+    <string name="bhakarwadi">This crispy snack will have a spicy stuffing with the hint of sweet and tanginess.</string>
+
+    <string name="halwasanpak">Halwasan to Gujaratis is what Mysore Pak means to the South Indians and Sandesh to the Bengalis. It is believed that Halwasn was introduced to India from Khambat,
+        historically known as the Gulf of Cambay or the Gulf of Khambat.
+        Made from whole wheat, milk, sugar and pure ghee, Halwasan Pak is shaped like a cutlet but tastes like heaven.</string>
+
+    <string name="bikaneripapad">One of the most loved side dishes in any Indian thali is the thin,
+        crispy papad, that is enjoyed plain or flavoured or even garnished with onion and coriander.
+        Papad is famous all across India and is made in different varieties and one of the best is Bikaneri Papad.
+        Made of black gram and moong, Bikaneri papad is large in size and spicier than most other papads and has its own unique legacy.</string>
+
+    <string name="mixedpachrangaachar">A mundane meal is made into a tingling feast for your taste buds with the addition of just one element: a pickle!
+        Panipat’s Pachranga Achar is a pickle in its own league featuring five vegetables pickled in oil and authentic spices.
+        So whether its stuffed paranthas or dal and rice,
+        this pickle is all you need to elevate your meal into a feast.</string>
+
+    <string name="sweetlimepachrangaachaar">A mundane meal is made into a tingling feast for your taste buds
+        with the addition of just one element: a pickle!
+        Panipat’s Pachranga Achar is a pickle in its own league featuring
+        five vegetables pickled in oil and authentic spices.
+        So whether its stuffed paranthas or dal and rice,
+        this pickle is all you need to elevate your meal into a feast.</string>
+
+    <string name="mangopachrangaachaar">A mundane meal is made into a tingling feast
+        for your taste buds with the addition of just one element: a pickle!
+        Panipat’s Pachranga Achar is a pickle in its own league
+        featuring five vegetables pickled in oil
+        and authentic spices.
+        So whether its stuffed
+        paranthas or dal and rice, this pickle is
+        all you need to elevate your meal into a feast.</string>
+
+    <string name="fruitbiscuits">Home to the Charminar and glossy pearls,
+        Hyderabad brings to mind delicious flavours that have a Mughal influence,
+        but let us tell you that this city has more to boast about than just biryani.
+        Take for instance, the soft, fluffy biscuits that dissolve in your mouth after a mere bite.
+        The legendary fruit biscuits hit the spot with their perfect texture and buttery goodness,
+        imbued with tutti-fruity bits and dry fruits that tickle your sweet tooth with every bite.</string>
+
+    <string name="petha">A juicy Petha dipped in sucrose and sprinkled with pure saffron brings about unmatched quality and purity in taste.
+        It is one of the largest selling variety of Agra\'s Petha.
+        This Petha is flavoured with Kewda essence and elaichi is
+        one of the best variation of Agra\'s most famous sweet tempting dessert.</string>
+
+
+    <string name="title_activity_payment__gateway">Payment_Gateway</string>
+    <string name="title_activity_pay_ment_gate_way">PayMentGateWay</string>
+
+    <!--<string name="city_prompt">Choose City</string>-->
+
+    <string-array name="city_arrays">
+        <item>Mumbai</item>
+        <item>Delhi</item>
+        <item>Bangalore</item>
+        <item>Hyderabad</item>
+        <item>Ahmedabad</item>
+        <item>Chennai</item>
+        <item>Kolkata</item>
+        <item>Surat</item>
+        <item>Pune</item>
+        <item>Jaipur</item>
+        <item>Lucknow</item>
+        <item>Kanpur</item>
+        <item>Nagpur</item>
+        <item>Indore</item>
+        <item>Thane</item>
+        <item>Bhopal</item>
+        <item>Visakhapatnam</item>
+        <item>Patna</item>
+        <item>Vadodara</item>
+        <item>Ghaziabad</item>
+        <item>Ludhiana</item>
+        <item>Agra</item>
+        <item>Nashik</item>
+        <item>Faridabad</item>
+        <item>Merrut</item>
+        <item>Rajkot</item>
+        <item>Varanasi</item>
+        <item>Srinagar</item>
+        <item>Aurangabad</item>
+        <item>Dhanbad</item>
+        <item>Amritsar</item>
+        <item>Navi Mumbai</item>
+        <item>Allahabad</item>
+        <item>Ranchi</item>
+        <item>Howrah</item>
+        <item>Coimbatore</item>
+        <item>Jabalpur</item>
+        <item>Gwalior</item>
+        <item>Vijayawada</item>
+        <item>Jodhur</item>
+        <item>Madurai</item>
+        <item>Raipur</item>
+        <item>Kota</item>
+        <item>Guwahati</item>
+        <item>Chandigarh</item>
+        <item>Solapur</item>
+        <item>Mysore</item>
+        <item>Gurgaon</item>
+        <item>Jalandhar</item>
+        <item>Tiruchirappalli</item>
+        <item>Bhubaneshwar</item>
+        <item>Salem</item>
+        <item>Warangal</item>
+        <item>Thiruvananthpuram</item>
+        <item>Bikaner</item>
+        <item>Noida</item>
+        <item>Kochi</item>
+        <item>Dehradun</item>
+        <item>Durgapur</item>
+        <item>Ajmer</item>
+        <item>Ujjain</item>
+        <item>Udaipur</item>
+        <item>Patiala</item>
+        <item>Muzaffarnagar</item>
+        <item>Rohtak</item>
+        <item>Mathura</item>
+        <item>Alwar</item>
+        <item>Navi Mumbai</item>
+        <item>Aizawl</item>
+        <item>Karnal</item>
+        <item>Rourkela</item>
+        <item>Ratlam</item>
+        <item>New Delhi</item>
+        <item>Haridwar</item>
+    </string-array>
+    <string-array name="quantity_array">
+        <item>1</item>
+        <item>2</item>
+
+    </string-array>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_flavours">flavours</string>
+
+</resources>

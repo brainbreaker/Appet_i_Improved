@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sunshine.bbreaker.appet_i" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/appeti_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppThememe" >
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".login"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="materialtabs.MainActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThememe" >
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Regional_Specialities"
+            android:label="@string/title_activity_regional__specialities"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Products"
+            android:label="@string/title_activity_products"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ProductActivity"
+            android:label="@string/title_activity_product"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Cart"
+            android:label="@string/title_activity_cart"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Checkout"
+            android:label="@string/title_activity_checkout"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Order_Summary"
+            android:label="@string/title_activity_order__summary"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Payment_Gateway"
+            android:label="@string/title_activity_payment__gateway"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".flavours"
+            android:label="@string/title_activity_flavours" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,1 +1,2 @@
-# Application prototype, made while learning Android Development and Github
+# Appeti Android Application prototype
+Made while learning Android Development and Git

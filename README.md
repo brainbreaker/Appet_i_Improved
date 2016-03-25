@@ -1,2 +1,1 @@
-# Appeti_App
-Android Application for the startup Appet-i.
+# Application prototype, made while learning Android Development and Github
